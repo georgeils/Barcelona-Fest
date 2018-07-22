@@ -1,0 +1,180 @@
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* navigation
+_____________________________________________*/
+
+.navbar {
+    background: rgb(202, 211, 241, 0.5);
+}
+
+.nav-link,
+.navbar-brand {
+    color: rgb(66, 87, 157, 0.7);
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #DEF3F7;
+    color: #7489CE;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+main {
+    margin-top: 69.5px;
+}
+
+/* carousel fade
+_____________________________________________*/
+
+.carousel-fade {
+    transition-property: opacity;
+}
+
+.carousel-inner {
+    transition-property: opacity;
+}
+
+.item {
+    transition-property: opacity;
+}
+
+.item,
+.active.left,
+.active.right {
+    opacity: 0;
+}
+
+.active,
+.next.left,
+.prev.right {
+    opacity: 1;
+}
+
+.next,
+.prev,
+.active.left,
+.active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-control {
+    z-index: 2;
+}
+
+.carousel-caption h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 44px;
+    font-weight: 900;
+    padding-bottom: 100px;
+}
+
+/* content
+_____________________________________________*/
+
+.text-link h5 {
+    color: black;
+    
+}
+
+.text-link h5:hover {
+    font-weight: bolder;
+    color: rgb(66, 87, 157, 0.7);
+}
+
+.text-link a {
+    text-decoration: none;
+}
+
+.text-link a:hover {
+    text-decoration: none;
+}
+
+/* map
+_____________________________________________*/
+
+.map{
+    width: 100%;
+}
+
+/* footer
+_____________________________________________*/
+
+html, body {
+    height: 100%;
+}
+  
+  /* body {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    padding-bottom: 80px;
+    box-sizing: border-box;   
+  }
+
+  main {
+    flex-grow: 1;
+  }
+
+.footer {   
+   position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(66, 87, 157, 0.6);    
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+
+  .fa{
+      padding-top: 10px;
+  }
+
+
+  .height-800 {
+      height: 1000px;
+  }
+*/
+
+.footer {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer {
+    background: rgb(66, 87, 157, 0.6);
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+ 
