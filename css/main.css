@@ -15,7 +15,7 @@ a {
 _____________________________________________*/
 
 .navbar {
-    background: rgb(202, 211, 241, 0.5);
+    background: rgb(66, 87, 157, 0.7);;
 }
 
 .nav-link,
@@ -29,20 +29,15 @@ _____________________________________________*/
 }
 
 .nav-link:hover {
-    background: #DEF3F7;
     color: #7489CE;
 }
 
-.navbar-collapse {
+.collapse {
     justify-content: center;
 }
 
 .navbar-toggler {
     background: #fff !important;
-}
-
-main {
-    margin-top: 69.5px;
 }
 
 /* carousel fade
@@ -133,7 +128,7 @@ body {
 }
 
 .footer {
-    background: rgb(66, 87, 157, 0.6);
+    background:rgb(66, 87, 157, 0.7);
     color: #ffffff;
 }
 

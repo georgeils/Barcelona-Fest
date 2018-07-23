@@ -13,36 +13,47 @@
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/fancybox/dist/jquery.fancybox.min.css">
+
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top ">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav mr-4">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Главная</a>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="days.html">27.06.2017 - 05.07.2017</a>
+                        <a class="nav-link" href="days.html">27.06.2017 - 05.06.2017</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Расписание</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="timeline-1.html">30.06.2017</a>
+                            <a class="dropdown-item" href="#">01.07.2018</a>
+                            <a class="dropdown-item" href="#">02.07.2018</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="timeline-1.html">Расписание</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="about.html">Обо мне</a>
+                        <a class="nav-link" href="about.html">Обо мне</a>
                     </li>
                 </ul>
-
-            </div>
         </nav>
+
+        </div>
+
+
     </header>
 
     <main>
@@ -217,6 +228,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T "
         crossorigin="anonymous "></script>
     <script src="//code.jquery.com/jquery-3.3.1.min.js "></script>
+    <script src="libs/fancybox/dist/jquery.fancybox.min.js"></script>    
     <script src="js/main.js "></script>
 </body>
 
