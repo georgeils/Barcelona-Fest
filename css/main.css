@@ -15,7 +15,8 @@ a {
 _____________________________________________*/
 
 .navbar {
-    background: rgb(66, 87, 157, 0.7);;
+    background: rgb(66, 87, 157, 0.7);
+
 }
 
 .nav-link,
@@ -37,7 +38,7 @@ _____________________________________________*/
 }
 
 .navbar-toggler {
-    background: #fff !important;
+    background:#8C9CCE;
 }
 
 /* carousel fade
@@ -297,6 +298,7 @@ _____________________________________________*/
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    word-wrap: break-word;
 }
 
 .timeline-body>p,
