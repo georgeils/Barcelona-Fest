@@ -8,11 +8,16 @@ $(document).ready(function () {
   });
 });
 
-$( document ).ready( function () {
-  var url = window.location.href.substr( window.location.href.lastIndexOf( '/' ) + 1 );
-  $( '.nav-item a' ).each( function () {
-      if( $( this ).attr( 'href' ) === url || $( this ).attr( 'href' ) === '' ) {
-          $( this ).parent( 'li' ).addClass( 'active' );
-      }
-  });
-});
+
+
+$('.nav-item a').each(function () { 
+        var location = window.location.href; 
+        var link = this.href;  
+        if(location == link) { 
+            $(this).addClass('active');
+			$(this).closest('.dropdown').addClass('active');
+        }
+	
+    });
+
+

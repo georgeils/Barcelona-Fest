@@ -1,0 +1,28 @@
+.carousel-fade 
+	transition-property opacity
+.carousel-inner 
+	transition-property opacity
+.item 
+	transition-property opacity
+.item,
+.active.left,
+.active.right 
+	opacity 0
+.active,
+.next.left,
+.prev.right 
+	opacity 1
+.next,
+.prev,
+.active.left,
+.active.right 
+	left 0
+	transform translate3d(0, 0, 0)
+.carousel-control 
+	z-index 2
+.carousel-caption 
+	h3 
+		font-family $font-common
+		font-size 44px
+		font-weight 200
+		padding-bottom 100px
